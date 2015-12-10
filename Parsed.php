@@ -1,10 +1,10 @@
 <?php
 
-namespace infrajs\controller\ext;
+namespace infrajs\layer\parsed;
 
 //parsed
 //Обработка - перепарсиваем слой если изменились какие-то атрибуты
-class parsed
+class Parsed
 {
 	//Расширяется в global.js
 	public static $props = array();
